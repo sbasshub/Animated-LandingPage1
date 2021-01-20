@@ -57,6 +57,7 @@ section header .toggle {
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
+    z-index: 100;
 
 }
 
@@ -168,4 +169,5 @@ section header .toggle {
 .textblock .block:hover {
     transform: scale(1.1);
     transition: ease-in-out .2s;
+    cursor: pointer;
 }
